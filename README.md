@@ -1,15 +1,20 @@
 # AGV2AMR
 
-AGV2AMR is a hardware-software project focused on the development and integration of an autonomous mobile robotic platform.
+AGV2AMR is a hardware-software project focused on the evolution of an Automated Guided Vehicle (AGV) into an Autonomous Mobile Robot (AMR).
 
-The repository contains embedded firmware, control algorithms, communication interfaces, and software tools used for the development of the vehicle.
+The repository brings together embedded firmware, control algorithms, communication interfaces, sensor integration, and high-level software developed throughout the project.
 
 ## Project Structure
 
 ```text
 AGV2AMR/
-├── Arduino/   # Arduino-based firmware and peripheral testing
-├── Python/    # Python tools, communication, testing, and data processing
-├── STM32/     # STM32 firmware and low-level control
+├── AGV/
+│   └── codigos/
+│       ├── MatLab/     # Previous modeling, analysis, and control code
+│       ├── Python/     # Python tools developed for the original AGV
+│       └── STM32/      # Embedded firmware developed for the original AGV
+│
+├── Arduino/            # Arduino-based development and hardware testing
+├── STM32/              # Current STM32 firmware and embedded control
 ├── README.md
 └── .gitignore

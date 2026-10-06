@@ -1,0 +1,35 @@
+# STM32CubeIDE workspace
+.metadata/
+
+# STM32 builds
+**/Debug/
+**/Release/
+
+# Compiled files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+*.d
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Arduino generated files
+build/
+*.eep
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
